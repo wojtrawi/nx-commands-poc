@@ -44,6 +44,14 @@
         }
       },
       "defaultConfiguration": "check"
+    },
+    "dummy-scripts": {
+      "executor": "nx:run-commands",
+      "options": {
+        "cwd": "libs/cars-feature/src",
+        "commands": ["node script-a", "node script-b"],
+        "parallel": true
+      }
     }
   }
 }
