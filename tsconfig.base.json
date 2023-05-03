@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-commands-poc/cars-feature": ["libs/cars-feature/src/index.ts"],
+      "@nx-commands-poc/planes-feature": ["libs/planes-feature/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

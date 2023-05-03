@@ -19,3 +19,7 @@ Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and 
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
+
+## List of affected libs
+
+`nx print-affected --select=projects --type=lib`
