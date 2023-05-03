@@ -23,3 +23,15 @@ Visit the [Nx Documentation](https://nx.dev) to learn more.
 ## List of affected libs
 
 `nx print-affected --select=projects --type=lib`
+
+## Run target for all projects
+
+`nx run-many --target=[name] --all`
+
+## Run target for affected projects
+
+`nx affected --target=[name]`
+
+or
+
+`nx affected:[target_name]`

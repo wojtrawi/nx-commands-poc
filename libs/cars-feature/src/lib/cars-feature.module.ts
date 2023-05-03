@@ -6,4 +6,4 @@ import { CommonModule } from '@angular/common';
 })
 export class CarsFeatureModule {}
 
-const a = 1;
+const a = 2;
