@@ -74,8 +74,17 @@
     "lint-styles": {
       "executor": "nx:run-commands",
       "options": {
-        "command": "stylelint apps/shell/src/**/*.scss"
-      }
+        "command": "stylelint apps/shell/src/**/*.scss --fix={args.fix}"
+      },
+      "configurations": {
+        "check": {
+          "args": "--fix=false"
+        },
+        "fix": {
+          "args": "--fix=true"
+        }
+      },
+      "defaultConfiguration": "check"
     },
     "test": {
       "executor": "@nrwl/jest:jest",
